@@ -12,7 +12,6 @@ import { PortfolioGallery } from './components/PortfolioGallery';
 import { VideoGallery } from './components/VideoGallery';
 import { CampaignCaseStudies } from './components/CampaignCaseStudies';
 import { ExperienceTimeline } from './components/ExperienceTimeline';
-import { AiStudioSuite } from './components/AiStudioSuite';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 
@@ -37,7 +36,6 @@ export default function App() {
       <VideoGallery />
       <CampaignCaseStudies />
       <ExperienceTimeline />
-      <AiStudioSuite />
       <ContactSection />
       <Footer />
     </div>

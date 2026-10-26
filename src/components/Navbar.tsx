@@ -26,7 +26,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
     { name: 'Videos', href: '#videos' },
     { name: 'Campaigns', href: '#campaigns' },
     { name: 'Experience', href: '#experience' },
-    { name: 'AI Studio', href: '#aistudio' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -88,14 +87,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
           </button>
         </div>
 
-        {/* Mobile Hamburger */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden p-2 rounded-xl bg-[#231B30] text-[#C5A6FF] hover:bg-[#7446F5]/20 transition-colors"
-          aria-label="Toggle menu"
-        >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
       </div>
 
       {/* Mobile Drawer */}
